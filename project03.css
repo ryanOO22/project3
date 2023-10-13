@@ -1,1 +1,95 @@
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.container {
+    width: 600px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+
+}
+
+.sedan-cars {
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.icon-sedan {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.suv-cars {
+    background-color: teal;
+}
+
+.icon-suv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.luxury-cars {
+    background-color: darkslategray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon-luxury {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.make {
+    font-weight: 700;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.vehicle-description {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.learn-more {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(63, 49, 49);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.learn-more:hover {
+    background-color: rgb(197, 212, 65);
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0.15);
+}
+
+.learn-more:active {
+    opacity: 0.8;
+    animation-delay: 0.15s;
+}
